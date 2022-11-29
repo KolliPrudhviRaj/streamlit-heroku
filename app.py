@@ -1,9 +1,4 @@
 import streamlit as st
-import pandas as pd
-from sklearn import datasets
-from sklearn.ensemble import RandomForestClassifier
-import pickle
- 
 st.title("Division App")
 
 num1 = st.number_input(label="Enter Numerator")
