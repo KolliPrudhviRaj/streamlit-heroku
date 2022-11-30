@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Division App")
-st.title('This app calculates the division of two numbers.')
+st.header('This app calculates the division of two numbers.')
 
 num1 = st.number_input(label="Enter Numerator")
  
